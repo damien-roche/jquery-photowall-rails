@@ -20,6 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
+Assets have been namespaced with photowall- so no need to worry about asset_path conflicts.
+
+Be sure to include the library in your asset manifest files.
+
+````ruby
+# application.js
+//= require jquery-photowall
+
+# application.css.scss (@import or equivalent)
+@import "jquery-photowall";
+````
+
+See library home for everything else:
+
 - https://github.com/creotiv/jquery-photowall
 
 ## Contributing
