@@ -21,7 +21,7 @@ div.pw-photo img {
 	zoom: 1;
 }
 .pw-photo-hover {
-	box-shadow: 		1px 1px 5px #333;			
+	box-shadow: 		1px 1px 5px #333;
 	-webkit-box-shadow:	1px 1px 5px #333;
 	-moz-box-shadow:	1px 1px 5px #333;
 }
@@ -29,7 +29,7 @@ img.pw-photo-zoomed {
 	position: absolute;
 	z-index: 100;
 	background: white;
-	box-shadow: 		1px 1px 5px #333;			
+	box-shadow: 		1px 1px 5px #333;
 	-webkit-box-shadow:	1px 1px 5px #333;
 	-moz-box-shadow:	1px 1px 5px #333;
 }
@@ -55,7 +55,7 @@ img.pw-photo-zoomed {
 #showbox-exit {
     width:16px;
     height:16px;
-    background: url(exit.gif);
+    background: url(<%= asset_path 'photowall-exit.gif' %>);
     position:absolute;
     right:10px;
     top:10px;
@@ -68,7 +68,7 @@ img.pw-photo-zoomed {
     left:50%;
     width: 16px;
     height: 16px;
-    background: #000 url(loader.gif);
+    background: #000 url(<%= asset_path 'photowall-loader.gif' %>);
     margin:-80px 0 0 -8px;
 }
 #showbox .showbox-image {
@@ -99,7 +99,7 @@ img.pw-photo-zoomed {
 #showbox .showbox-pv-lock {
     width:13px;
     height:9px;
-    background: url(lock.gif);
+    background: url(<%= asset_path 'photowall-lock.gif' %>);
     position:absolute;
     right:10px;
     top:10px;
@@ -144,4 +144,4 @@ img.pw-photo-zoomed {
 	height: 0;
 	}
 * html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } 
+*:first-child+html .clearfix { zoom: 1; }
